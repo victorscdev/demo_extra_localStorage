@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- METAS -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS | MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/grid.css" />
+    <link rel="stylesheet" href="./src/css/form.css" />
+    <link rel="stylesheet" href="./src/css/buttons.css" />
+    <link rel="stylesheet" href="./src/css/general.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/modal.css" />
+
+    <!-- JS -->
+    <script src="./src/scripts/modal.js" defer></script>
+    <script src="./src/scripts/cadastroCracha.js" defer></script>
+
+    <!-- TITLE -->
+    <title>Kenzie Crachas</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="header__navigation">
+          <div class="header__navigation--logo">
+            <img
+              class="img-fluid"
+              src="./src/assets/images/kenzie__logo__1.png"
+              alt="Logo Kenzie Academy Brasil"
+            />
+            <h1 class="header__navigation--title">Kenzie Crachás</h1>
+          </div>
+          <nav class="header__navigation--links">
+            <a href="index.html">Home</a>
+            <a href="./pages/lista-crachas.html">Visualizar crachás</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <div class="container">
+        <section class="main-introdution">
+          <h2 class="main-introdution__title">
+            Bem vindos ao sistema de crachás da Kenzie.
+          </h2>
+          <button class="main-introdution__register">
+            Abrir modal de Cadastro
+          </button>
+        </section>
+      </div>
+
+      <!-- MODAL -->
+      <div class="modal__cracha">
+        <div class="modal__cracha--box"></div>
+      </div>
+    </main>
+  </body>
+</html>
